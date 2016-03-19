@@ -1,0 +1,114 @@
+body{
+	margin:0px;
+	width: 100%;
+}
+.col {
+    float: left;
+    border: #999 1px solid;
+    background-color: #eee;
+    margin: 10px;
+    height: 50px;
+    }
+
+@media screen and (min-width: 768px){
+
+
+.col-md-1 {
+	width: 6.33%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(8.33% - 22px);
+	width: -webkit-calc(8.33% - 22px);
+	width: calc(8.33%-22px);
+}
+
+.col-md-2 {
+	width: 14.66%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(16.66% - 22px);
+	width: -webkit-calc(16.66% - 22px);
+	width: calc(16.66%-22px);
+}
+
+.col-md-3 {
+	width: 23%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(25% - 22px);
+	width: -webkit-calc(25% - 22px);
+	width: calc(25%-22px);
+}
+
+.col-md-4 {
+	width: 31.33%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(33.33% - 22px);
+	width: -webkit-calc(33.33% - 22px);
+	width: calc(33.33%-22px);
+}
+
+.col-md-6 {
+	width: 48%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(50% - 22px);
+	width: -webkit-calc(50% - 22px);
+	width: calc(50%-22px);
+}
+
+.col-md-8 {
+	width: 64.66%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(66.66% - 22px);
+	width: -webkit-calc(66.66% - 22px);
+	width: calc(66.66%-22px);
+}
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+
+
+.col-sm-2 {
+	width: 14.66%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(16.66% - 22px);
+	width: -webkit-calc(16.66% - 22px);
+	width: calc(16.66%-22px);
+
+}
+
+.col-sm-3 {
+	width: 23%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(25% - 22px);
+	width: -webkit-calc(25% - 22px);
+	width: calc(25%-22px);
+}
+
+
+
+.col-sm-6 {
+	width: 48%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(50% - 22px);
+	width: -webkit-calc(50% - 22px);
+	width: calc(50%-22px);
+}
+
+.col-sm-8 {
+	width: 64.66%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(66.66% - 22px);
+	width: -webkit-calc(66.66% - 22px);
+	width: calc(66.66%-22px);
+}
+
+
+.col-sm-12{
+	width: 98%;/*Fallback for browsers that don't support the calc() function*/
+    width: -moz-calc(100% - 22px);
+	width: -webkit-calc(100% - 22px);
+	width: calc(100%-22px);
+}
+
+}
+
+
+
+
+
+
+
+
