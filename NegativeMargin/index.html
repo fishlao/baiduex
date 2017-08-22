@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>负边距</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+ <!--静态static元素中使用-->
+ <div class="negative negative_normal">
+ </div>
+ <div class="normal">
+ 	
+ </div>
+ <!--float元素中使用-->
+ <p>----------float元素中使用 -----------</p>
+ <div class="negative negative_float float">
+ 	
+ </div>
+ <div class="normal float"></div>
+<!--应用-->
+<p style="clear: both">-----把单个列表变成三列---</p>
+<div>
+	<ul>
+	    <li >Home</li>
+	    <li >Article</li> 
+	    <li class="col2 top">Link</li> 
+	    <li class="col2 ">Contact</li> 
+	    <li class="col3 top">Eamil</li> 
+	    <li class="col3 ">HERE</li> 
+	</ul>
+</div>
+<p style="clear: both">-----两列布局---</p>
+	<div class="negative negative_content float">
+		<p>12321321333333333333333333333333333333333333333333333333333333333333333333333333321333333333333333333333333</p>
+	</div>
+	<div class="normal float"></div>
+
+ <p style="clear: both">-----使用负边距使绝对定位的元素居中---</p>
+ <div class="negative negative_absolute">
+ 	<div class="logo">
+ 		Logo
+ 	</div>
+ </div>
+
+
+</body>
+</html>
